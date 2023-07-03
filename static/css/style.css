@@ -1,0 +1,52 @@
+/* main*/
+main{
+    width: 80%;
+}
+body{ 
+    background:rgba(112, 108, 108, 0.055); 
+    color:red; 
+    margin-top: 5px;     
+} 
+a:link, a:visited, a:active, a:hover {
+    text-decoration:none;
+    color: red;
+}    
+h1{        
+    text-align: center;
+    margin-top: 25px;      
+}
+.title-section{
+    text-align: center;
+    font-size: 35px;
+    color: #777777;
+}
+.copy{
+    text-align: center;    
+    color: #777777;   
+    margin: 20px 0; 
+}
+.content{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */    
+    height: 100vh;   
+}
+.table-responsive{
+    position: absolute;
+    
+}
+.table{
+    margin: auto;    
+}
+footer{padding:50px 0}
+.copyright{padding-top:20px}
+.copyright p{margin:0;color:#74808a}
+.top{text-align:center}
+.top span{cursor:pointer;display:block;margin:15px auto 0 auto;width:35px;height:35px;border-radius:50%;border:3px solid #b9bfc4;text-align:center}
+.top i{color:#74808a}
+.social{text-align:right}
+.social ul{margin:5px 0 0 0;padding:0}
+.social li{display:inline-block;font-size:1.25em;list-style:none}
+.social a{display:block;color:#74808a;padding:10px}
+.social a:hover{color:#3498db}
+footer{text-align:center}
+.social{text-align:center}
